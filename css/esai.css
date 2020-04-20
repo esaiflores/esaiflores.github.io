@@ -2,10 +2,16 @@ body {
     background-color: transparent;
 }
 
+.navbar {
+
+}
+
 
 .jumbotron {
-    color: #313B35;
-    background: transparent;
+    color: black;
+    background-image: url("../imgs/1f0b756f3ad53851-animated-falling-leaves-background-gif.gif");
+    background-color: rgba(255, 230, 184, 0);
+    background-size: cover;
     display: flex;
     font-family: Friday13;
 }
@@ -13,10 +19,15 @@ body {
 
 .jumbotron p {
     font-family: Futura;
-    color: #313B35
+    color: black;
 
 }
 
 .jumbotron .container {
     margin: 0;
+}
+
+#about {
+    font-size: x-large;
+    font-family: Futura;
 }
