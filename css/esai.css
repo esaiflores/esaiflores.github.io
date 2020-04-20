@@ -1,0 +1,22 @@
+body {
+    background-color: transparent;
+}
+
+
+.jumbotron {
+    color: #313B35;
+    background: transparent;
+    display: flex;
+    font-family: Friday13;
+}
+
+
+.jumbotron p {
+    font-family: Futura;
+    color: #313B35
+
+}
+
+.jumbotron .container {
+    margin: 0;
+}
