@@ -2,32 +2,18 @@ body {
     background-color: transparent;
 }
 
-.navbar {
 
+.bg-company-blue {
+    background-color: rgba(0, 4, 17, 0.81);
+    opacity: 97%;
 }
 
 
-.jumbotron {
-    color: black;
-    background-image: url("../imgs/1f0b756f3ad53851-animated-falling-leaves-background-gif.gif");
-    background-color: rgba(255, 230, 184, 0);
-    background-size: cover;
-    display: flex;
-    font-family: Friday13;
+.logo {
+    height: 35px;
+    padding-right: 15px;
+    padding-left: 5px;
 }
 
 
-.jumbotron p {
-    font-family: Futura;
-    color: black;
 
-}
-
-.jumbotron .container {
-    margin: 0;
-}
-
-#about {
-    font-size: x-large;
-    font-family: Futura;
-}
