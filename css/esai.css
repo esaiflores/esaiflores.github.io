@@ -171,12 +171,20 @@ img { max-width: 100%; }
 /* ... continues ... */
 
 .top {
-    background-image: url("../imgs/land.jpeg");
+    background-image: url("../imgs/illustration-of-moon-showing-during-sunset-884788.jpg");
+
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.bg-company-blue {
-    background-color: rgba(0, 4, 17, 0.81);
-}
+
 
 
 .logo {
@@ -338,8 +346,15 @@ img { max-width: 100%; }
 }
 
 .top1 {
-    background-image: url("../imgs/land.jpeg");
-    background-position: bottom;
+    background-image: url("../imgs/woodland-road-falling-leaf-natural-38537.jpeg");
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 html {
@@ -380,28 +395,6 @@ footer {
 
 .footer-bottom a:hover, .footer-bottom a:focus { color: #888; }
 
-/* Style the header: fixed position (always stay at the top) */
-.header {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    background-color: #f1f1f1;
-}
-
-/* The progress container (grey background) */
-.progress-container {
-    width: 100%;
-    height: 8px;
-    background: #ccc;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-    height: 8px;
-    background: #4caf50;
-    width: 0%;
-}
 
 /*Animation Delays*/
 
@@ -410,5 +403,54 @@ footer {
 }
 
 .animate__animated.animate__rollIn {
-    --animate-duration: 3s;
+    --animate-duration: 1s;
 }
+
+.animate__animated.animate__backOutDown {
+    --animate-duration: 5s;
+}
+
+/*na*/
+
+.navbar {
+    background: #000000;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+
+.navbar.navbar-no-bg {
+    background: #444;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "fantasy";
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    border: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
