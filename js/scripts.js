@@ -12,7 +12,7 @@ function scroll_to(clicked_link, nav_height) {
 }
 
 
-jQuery(document).ready(function() {
+$(document).ready(function() {
 
     /*
         Navigation
@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
 });
 
 
-jQuery(window).load(function() {
+$(window).load(function() {
 
     /*
         Hidden images
@@ -60,3 +60,4 @@ jQuery(window).load(function() {
     $(".testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 
 });
+
