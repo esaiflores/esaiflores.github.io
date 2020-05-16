@@ -167,8 +167,32 @@ img { max-width: 100%; }
 }
 
 
+/***** Top menu *****/
 
-/* ... continues ... */
+
+.navbar-dark {
+    background:transparent !important;
+    transition:0.75s ease;
+}
+.navbar-dark.scrolled {
+    background: #292929 !important;
+}
+
+/*.navbar {*/
+/*    background: #800d05;*/
+/*    -o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;*/
+/*    backface-visibility: hidden;*/
+
+/*}*/
+.navbar.navbar-no-bg { background: #444; background: rgba(0, 0, 0, 0.2); }
+
+.navbar-dark .navbar-nav { font-size: 15px; color: #fff; font-weight: 600; }
+.navbar-dark .navbar-nav .nav-link { color: #fff; color: rgba(255, 255, 255, 0.8); border: 0; }
+.navbar-dark .navbar-nav .nav-link:hover { color: #fff; }
+.navbar-dark .navbar-nav .nav-link:focus { color: #fff; outline: 0; }
+
+.navbar-expand-md .navbar-nav .nav-link { padding-left: 1rem; padding-right: 1rem; }
+
 
 .top {
     background-image: url("../imgs/pexels-photo-933054.jpeg");
@@ -183,6 +207,35 @@ img { max-width: 100%; }
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.top2{
+    background-image: url("../imgs/test-2.jpeg");
+
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top1{
+    background-image: url("../imgs/test-1.jpeg");
+
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
@@ -255,7 +308,7 @@ img { max-width: 100%; }
     border-radius: 4px;
 }
 
-/***** Portfolio *****/
+/***** Projects *****/
 
 .portfolio-box {
     padding-top: 30px;
@@ -348,33 +401,7 @@ img { max-width: 100%; }
     padding: 0 0 10px 0;
 }
 
-.top1 {
-    background-image: url("../imgs/test-1.jpeg");
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.top2 {
-    background-image: url("../imgs/test-2.jpeg");
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-html {
-    scroll-behavior: smooth;
-}
+/*Footer*/
 
 footer {
     padding: 40px 0 0 0;
@@ -425,47 +452,4 @@ footer {
     --animate-duration: 1s;
 }
 
-/*na*/
-
-.navbar {
-    background: #000000;
-    -o-transition: all .6s;
-    -moz-transition: all .6s;
-    -webkit-transition: all .6s;
-    -ms-transition: all .6s;
-    transition: all .6s;
-    backface-visibility: hidden;
-}
-
-.navbar.navbar-no-bg {
-    background: #444;
-    background: rgba(0, 0, 0, 0.2);
-}
-
-.navbar-dark .navbar-nav {
-    font-size: 15px;
-    color: #fff;
-    font-weight: 600;
-    font-family: "fantasy";
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #fff;
-    color: rgba(255, 255, 255, 0.8);
-    border: 0;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #fff;
-}
-
-.navbar-dark .navbar-nav .nav-link:focus {
-    color: #fff;
-    outline: 0;
-}
-
-.navbar-expand-md .navbar-nav .nav-link {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
 
