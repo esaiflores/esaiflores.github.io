@@ -207,7 +207,7 @@ img { max-width: 100%; }
 
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 750px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
