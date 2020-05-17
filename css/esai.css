@@ -178,6 +178,8 @@ img { max-width: 100%; }
     background:transparent !important;
     transition:0.75s ease;
     font-family: "Hiragino Sans";
+
+
 }
 .navbar-dark.scrolled {
     background: #292929 !important;

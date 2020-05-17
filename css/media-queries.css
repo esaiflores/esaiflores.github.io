@@ -65,11 +65,18 @@
     .footer-right { padding-top: 10px; text-align: center; }
     .footer-bottom { padding-top: 20px; }
 
+    .navbar-dark{background: #292929 !important;}
+
+
 }
 
 @media (max-width: 415px) {
 
     h1, h2 { font-size: 32px; }
+
+
+
+
 
 }
 
