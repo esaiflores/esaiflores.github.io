@@ -21,7 +21,7 @@ a, a:hover, a:focus {
 
 h1, h2 {
     margin-top: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Bodoni 72 Oldstyle";
     font-size: 38px;
     font-weight: 300;
     color: #555;
@@ -29,7 +29,7 @@ h1, h2 {
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Bodoni 72 Oldstyle";
     font-size: 22px;
     font-weight: 300;
     color: #555;
@@ -54,7 +54,8 @@ img { max-width: 100%; }
 
 .section-container {
     margin: 0 auto;
-    padding-bottom: 80px;
+    padding-bottom: 90px;
+
 }
 
 .section-container-gray-bg {
@@ -217,7 +218,8 @@ img { max-width: 100%; }
 }
 
 .top2{
-    background-image: url("../imgs/test-2.jpeg");
+    background-image: url("../imgs/leaves.jpeg");
+    color: white;
 
 
     /* Set a specific height */
@@ -230,19 +232,6 @@ img { max-width: 100%; }
     background-size: cover;
 }
 
-.top1{
-    background-image: url("../imgs/test-1.jpeg");
-
-
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 
@@ -355,7 +344,7 @@ img { max-width: 100%; }
 
 .portfolio-box h3 i {
     padding-left: 10px;
-    color: #ccc;
+    color: #888888;
     -o-transition: all .3s;
     -moz-transition: all .3s;
     -webkit-transition: all .3s;
@@ -402,7 +391,7 @@ img { max-width: 100%; }
     background: -webkit-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #ffb24b 0%,#9b59b6 100%); /* W3C */
+    background: linear-gradient(to bottom, #0b3d1e 0%, #19642b 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
 }
 
@@ -415,7 +404,7 @@ img { max-width: 100%; }
 
 footer {
     padding: 40px 0 0 0;
-    background: #444;
+    background: #232023;
     color: #aaa;
     text-align: left;
 }
@@ -463,4 +452,105 @@ footer {
 }
 
 
+/*Font Awesome*/
 
+
+.fa-phone:hover {
+    opacity: 0.7;
+}
+
+.fa-phone {
+    background: #15981d;
+    color: white;
+
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+
+    /*padding: 20px;*/
+    /*font-size: 30px;*/
+    /*width: 70px;*/
+    /*text-align: center;*/
+    /*text-decoration: none;*/
+    /*border-radius: 50%;*/
+    /*margin-right: 10px;*/
+}
+
+.fa-envelope {
+    background: linear-gradient(#1958f0, #18defc);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.fa-linkedin {
+    background: #0076b5;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.fa-github {
+     background: #474747;
+     color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+ }
+
+.fa-otter{
+    color: white;
+
+}
+
+@-webkit-keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+}
+@keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+}
+.hvr-buzz {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+    -webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
