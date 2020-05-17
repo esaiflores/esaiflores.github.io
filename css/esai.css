@@ -171,7 +171,7 @@ img { max-width: 100%; }
 }
 
 
-/***** Top menu *****/
+/***** Nav *****/
 
 
 .navbar-dark {
@@ -251,6 +251,8 @@ img { max-width: 100%; }
     padding-right: 15px;
     padding-left: 0px;
 }
+
+/*Top Content*/
 
 .top-content {
     padding: 210px 0;
@@ -457,5 +459,6 @@ footer {
 .animate__animated.animate__backOutDown {
     --animate-duration: 1s;
 }
+
 
 

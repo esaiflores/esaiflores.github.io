@@ -37,7 +37,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav">
 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -282,7 +282,6 @@
             <div class="col-md-5 footer-left">
                 Need to work on
             </div>
-
             <div class="col-md-6 offset-md-1 footer-right">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-dribbble"></i></a>
@@ -299,10 +298,20 @@
     </div>
 </footer>
 
-<script
-        src="https://code.jquery.com/jquery-3.5.1.slim.js"
-        integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
-        crossorigin="anonymous"></script>
+
+<div id="container">
+    <button class="learn-more">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+        <span class="button-text">Learn More</span>
+    </button>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
@@ -311,13 +320,13 @@
         crossorigin="anonymous"></script>
 <script src="js/jquery.backstretch.min.js"></script>
 <script src="js/wow.js"></script>
-<script src="js/waypoints.js"></script>
-<script src="js/scripts.js"></script>
 
+<script src="js/scripts.js"></script>
+<script src="js/main.js"></script>
 
 
 <script>
-    $(window).scroll(function(){
+    $(window).scroll(function () {
         $('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
     });
 </script>
