@@ -208,7 +208,7 @@ img { max-width: 100%; }
 
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 250px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -352,6 +352,7 @@ img { max-width: 100%; }
 
 .portfolio-container .section-bottom-button {
     padding-top: 40px;
+
 }
 
 /***** Services *****/
@@ -376,7 +377,7 @@ img { max-width: 100%; }
     background: -webkit-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top,  #ffb24b 0%,#9b59b6 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #0b3d1e 0%, #19642b 100%); /* W3C */
+    background: linear-gradient(to bottom, #09113d 0%, #132380 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb24b', endColorstr='#9b59b6',GradientType=0 ); /* IE6-9 */
 }
 
@@ -441,6 +442,18 @@ footer {
 
 
 .fa-phone:hover {
+    opacity: 0.7;
+}
+
+.fa-envelope:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin:hover {
+    opacity: 0.7;
+}
+
+.fa-github:hover {
     opacity: 0.7;
 }
 
