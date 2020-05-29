@@ -460,7 +460,7 @@ footer {
     opacity: 0.7;
 }
 
-fa-otter:hover {
+fa-angle-up:hover {
     opacity: 0.7;
 }
 
@@ -517,10 +517,10 @@ fa-otter:hover {
     border-radius: 20px;
  }
 
-.fa-otter{
-    color: white;
+/*.fa-angle-up{*/
+/*    color: white;*/
 
-}
+/*}*/
 
 /*buzz animation */
 @-webkit-keyframes hvr-buzz {
@@ -691,7 +691,7 @@ fa-otter:hover {
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
     background-color: rgba(0, 0, 0, 0);
-    color: #ff6e0f;
+    color: #114bff;
 }
 
 /* Icon Pulse Grow */
