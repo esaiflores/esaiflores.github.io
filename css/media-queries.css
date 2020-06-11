@@ -32,7 +32,16 @@
 
 @media (max-width: 767px) {
 
-    .top {background-image: url("../imgs/test.jpeg")}
+    .top {
+        background-image: url("../imgs/test.jpeg");
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
     .navbar.navbar-no-bg { background: #444; }
     .navbar-dark .navbar-toggler { border-color: #444; }
     .navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
