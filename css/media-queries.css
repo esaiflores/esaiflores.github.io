@@ -32,6 +32,7 @@
 
 @media (max-width: 767px) {
 
+    .top {background-image: url("../imgs/smaller.jpg")}
     .navbar.navbar-no-bg { background: #444; }
     .navbar-dark .navbar-toggler { border-color: #444; }
     .navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
