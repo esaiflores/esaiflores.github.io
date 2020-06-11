@@ -364,8 +364,9 @@ footer {
     padding: 40px 0 0 0;
     background: #232023;
     color: #aaa;
-    text-align: left;
+    text-align: center;
     font-family: "Bodoni 72 Oldstyle";
+
 }
 
 .footer-left a { color: #ddd; border-bottom: 1px dashed #ddd; }
