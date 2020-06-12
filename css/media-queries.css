@@ -44,6 +44,17 @@
 
     }
 
+    .top2 {
+        background-image: url("../imgs/second.jpeg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+        background-attachment: scroll; padding: 240px 0;
+    }
+
 
 
     .navbar.navbar-no-bg { background: #444; }
@@ -51,7 +62,7 @@
     .navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
     .navbar-expand-md .navbar-nav .nav-link { padding-top: 0.3rem; padding-bottom: 0.3rem; }
 
-    .top-content { padding: 208px 0; }
+    .top-content { padding: 245px 0; }
     .top-content .top-big-link { margin-top: 25px; }
     .top-content .top-big-link a.btn { margin-top: 10px; }
 
