@@ -92,6 +92,10 @@
 
     .navbar-dark{background: #292929 !important;}
 
+    * {
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
 
 }
 
