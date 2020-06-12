@@ -34,11 +34,11 @@
 
     .top {
         background-image: url("../imgs/test.jpeg");
-        background-attachment: fixed;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 100%;
         width: 100%;
+        background-attachment: scroll
 
     }
 
