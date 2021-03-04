@@ -43,6 +43,10 @@ img { max-width: 100%; }
     line-height: 32px;
 }
 
+#gigSize {
+    height: 131px;
+}
+
 
 
 /*General*/
